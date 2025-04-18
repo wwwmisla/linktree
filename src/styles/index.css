@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos customizados para os ícones */
+#links a[title="Compartilhar"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links a[title="Compartilhar"] svg {
+    transition: transform 0.2s;
+}
+
+#links a[title="Compartilhar"]:hover svg {
+    transform: scale(1.1);
+}
+
+/* Scrollbar para Chrome, Edge e Safari */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #18181b;
+    /* zinc-900 */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #27272a;
+    /* zinc-800 */
+    border-radius: 8px;
+    border: 2px solid #18181b;
+    /* zinc-900 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3f3f46;
+    /* zinc-700 */
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #27272a #18181b;
+}

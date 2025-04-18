@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Misla Wislaine</title>
+  <link rel="shortcut icon" href="public/favicon/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="src/styles/index.css">
+</head>
+
+<body class="bg-zinc-900 text-white flex flex-col items-center justify-center min-h-screen px-4 pt-8">
+  <header class="bg-zinc-800 text-white py-8 px-4 sm:px-6 lg:px-8 rounded-xl shadow-lg mb-8 max-w-4xl mx-auto">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+      <!-- Conteúdo -->
+      <div class="text-center md:text-left space-y-3">
+        <div class="relative inline-block">
+          <img id="avatar" src="/images/avatar.jpg" alt="Misla Wislaine"
+            class="rounded-full w-32 h-32 border-4 border-zinc-700 hover:border-zinc-600 transition-all duration-300 object-cover shadow-xl">
+          <div
+            class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-zinc-800 px-3 py-1 rounded-full border border-zinc-700 text-xs">
+            👋
+          </div>
+        </div>
+
+        <div class="space-y-1">
+          <h1 class="text-xl sm:text-2xl font-bold text-white tracking-tight">Misla Wislaine</h1>
+          <p class="text-base sm:text-lg text-zinc-400 font-medium">
+            Bacharelanda em Ciências e Tecnologia | Técnica de Informática
+          </p>
+        </div>
+      </div>
+
+      <!-- Seletor de Idiomas -->
+      <div class="flex flex-row md:flex-col gap-2 bg-zinc-800/50 p-2 rounded-lg border border-zinc-700">
+        <button class="px-4 py-2 rounded-md text-sm font-medium transition-all
+          text-zinc-300 hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-zinc-500" aria-current="page"
+          data-lang="PT">
+          PT
+        </button>
+        <button class="px-4 py-2 rounded-md text-sm font-medium transition-all
+        text-zinc-300 hover:bg-zinc-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-zinc-500"
+          data-lang="EN">
+          EN
+        </button>
+        <button class="px-4 py-2 rounded-md text-sm font-medium transition-all
+          text-zinc-300 hover:bg-zinc-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-zinc-500"
+          data-lang="ES">
+          ES
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <ul id="links" class="w-full max-w-4xl mx-auto space-y-4"></ul>
+  </main>
+
+  <footer class="m-8 text-center text-gray-500 text-sm">
+    <p></p>
+  </footer>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
