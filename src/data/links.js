@@ -14,6 +14,13 @@ export const links = [
     share: true
   },
   {
+    label: "Portfólio",
+    url: "https://portfoliomislawislaine.vercel.app", 
+    description: "Explore meus projetos e trabalhos realizados",
+    icon: "Portfolio", 
+    share: true
+  },
+  {
     label: "GitHub",
     url: "https://github.com/wwwmisla",
     description: "Acesse meus projetos de código aberto",

@@ -12,6 +12,10 @@ export const translations = {
         label: "Currículo Lattes",
         description: "Veja meu currículo acadêmico na plataforma Lattes",
       },
+      { 
+        label: "Portfólio",
+        description: "Explore meus projetos e trabalhos realizados",
+      },
       {
         label: "GitHub",
         description: "Acesse meus projetos de código aberto",
@@ -35,6 +39,10 @@ export const translations = {
         label: "Lattes CV",
         description: "View my academic résumé on the Lattes platform",
       },
+      { 
+        label: "Portfolio",
+        description: "Explore my projects and completed works",
+      },
       {
         label: "GitHub",
         description: "Access my open-source projects",
@@ -57,6 +65,10 @@ export const translations = {
       {
         label: "Currículum Lattes",
         description: "Consulta mi currículum académico en la plataforma Lattes",
+      },
+      { 
+        label: "Portafolio", 
+        description: "Explora mis proyectos y trabajos realizados",
       },
       {
         label: "GitHub",
